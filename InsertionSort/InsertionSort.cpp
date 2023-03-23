@@ -86,7 +86,9 @@ void display()
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    input(); // memanggil input
+    insertionsort(); // memanggil insertionsort
+    display(); // memanggil display
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
