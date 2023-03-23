@@ -57,8 +57,14 @@ void insertionsort()
 
         arr[j + 1] = temp;              // 5. simpan nilai temp ke dalam srr[j + 1]
 
-
-}
+        cout << endl;
+        cout << "\npass " << i << ": "; // Output ke layar
+        for (int k = 0; k < n; k++)
+        {                      // Looping nilai k dimulai dari 0 hinnga n-1
+            cout << arr[k] << " ";  // Output ke layar
+        }
+    }
+};
 
 
 int main()
